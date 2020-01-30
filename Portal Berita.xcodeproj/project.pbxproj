@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27B87BFC23E2AC8200D8DA39 /* BeritaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B87BFB23E2AC8200D8DA39 /* BeritaTableViewController.swift */; };
+		27B87BFE23E2ACA000D8DA39 /* BeritaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B87BFD23E2ACA000D8DA39 /* BeritaTableViewCell.swift */; };
+		27B87C0023E2BC8400D8DA39 /* DetailBeritaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B87BFF23E2BC8400D8DA39 /* DetailBeritaViewController.swift */; };
 		27F8D96723E28FC700E89AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F8D96623E28FC700E89AAE /* AppDelegate.swift */; };
 		27F8D96923E28FC700E89AAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F8D96823E28FC700E89AAE /* SceneDelegate.swift */; };
 		27F8D96B23E28FC700E89AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F8D96A23E28FC700E89AAE /* ViewController.swift */; };
 		27F8D96E23E28FC700E89AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F8D96C23E28FC700E89AAE /* Main.storyboard */; };
 		27F8D97023E28FC900E89AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F8D96F23E28FC900E89AAE /* Assets.xcassets */; };
 		27F8D97323E28FC900E89AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F8D97123E28FC900E89AAE /* LaunchScreen.storyboard */; };
+		57FF3D635D823AAE4DD78F3B /* Pods_Portal_Berita.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A41DBEFA3BD98A30577A0A /* Pods_Portal_Berita.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27B87BFB23E2AC8200D8DA39 /* BeritaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaTableViewController.swift; sourceTree = "<group>"; };
+		27B87BFD23E2ACA000D8DA39 /* BeritaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaTableViewCell.swift; sourceTree = "<group>"; };
+		27B87BFF23E2BC8400D8DA39 /* DetailBeritaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBeritaViewController.swift; sourceTree = "<group>"; };
 		27F8D96323E28FC700E89AAE /* Portal Berita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portal Berita.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F8D96623E28FC700E89AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27F8D96823E28FC700E89AAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		27F8D96F23E28FC900E89AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F8D97223E28FC900E89AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27F8D97423E28FC900E89AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F8FE0232B9E208047428F0A /* Pods-Portal Berita.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Portal Berita.release.xcconfig"; path = "Target Support Files/Pods-Portal Berita/Pods-Portal Berita.release.xcconfig"; sourceTree = "<group>"; };
+		9880C61ED3737ABD618B83A0 /* Pods-Portal Berita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Portal Berita.debug.xcconfig"; path = "Target Support Files/Pods-Portal Berita/Pods-Portal Berita.debug.xcconfig"; sourceTree = "<group>"; };
+		F6A41DBEFA3BD98A30577A0A /* Pods_Portal_Berita.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Portal_Berita.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FF3D635D823AAE4DD78F3B /* Pods_Portal_Berita.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16A99B3D949FAEA5DC4B4B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6A41DBEFA3BD98A30577A0A /* Pods_Portal_Berita.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		27F8D95A23E28FC700E89AAE = {
 			isa = PBXGroup;
 			children = (
 				27F8D96523E28FC700E89AAE /* Portal Berita */,
 				27F8D96423E28FC700E89AAE /* Products */,
+				88A68C289CE08D92B86C6C32 /* Pods */,
+				16A99B3D949FAEA5DC4B4B43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +84,20 @@
 				27F8D96F23E28FC900E89AAE /* Assets.xcassets */,
 				27F8D97123E28FC900E89AAE /* LaunchScreen.storyboard */,
 				27F8D97423E28FC900E89AAE /* Info.plist */,
+				27B87BFB23E2AC8200D8DA39 /* BeritaTableViewController.swift */,
+				27B87BFD23E2ACA000D8DA39 /* BeritaTableViewCell.swift */,
+				27B87BFF23E2BC8400D8DA39 /* DetailBeritaViewController.swift */,
 			);
 			path = "Portal Berita";
+			sourceTree = "<group>";
+		};
+		88A68C289CE08D92B86C6C32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9880C61ED3737ABD618B83A0 /* Pods-Portal Berita.debug.xcconfig */,
+				2F8FE0232B9E208047428F0A /* Pods-Portal Berita.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27F8D97723E28FC900E89AAE /* Build configuration list for PBXNativeTarget "Portal Berita" */;
 			buildPhases = (
+				CBCDB1079B51707953D7FFCC /* [CP] Check Pods Manifest.lock */,
 				27F8D95F23E28FC700E89AAE /* Sources */,
 				27F8D96023E28FC700E89AAE /* Frameworks */,
 				27F8D96123E28FC700E89AAE /* Resources */,
+				0A672FE7E38192833DD1162B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +168,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A672FE7E38192833DD1162B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Portal Berita/Pods-Portal Berita-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Portal Berita/Pods-Portal Berita-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Portal Berita/Pods-Portal Berita-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCDB1079B51707953D7FFCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Portal Berita-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27F8D95F23E28FC700E89AAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B87BFC23E2AC8200D8DA39 /* BeritaTableViewController.swift in Sources */,
 				27F8D96B23E28FC700E89AAE /* ViewController.swift in Sources */,
+				27B87BFE23E2ACA000D8DA39 /* BeritaTableViewCell.swift in Sources */,
 				27F8D96723E28FC700E89AAE /* AppDelegate.swift in Sources */,
+				27B87C0023E2BC8400D8DA39 /* DetailBeritaViewController.swift in Sources */,
 				27F8D96923E28FC700E89AAE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +362,7 @@
 		};
 		27F8D97823E28FC900E89AAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9880C61ED3737ABD618B83A0 /* Pods-Portal Berita.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +381,7 @@
 		};
 		27F8D97923E28FC900E89AAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8FE0232B9E208047428F0A /* Pods-Portal Berita.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
